@@ -1,5 +1,5 @@
 <script>
-import AppTitle from "./components/Apptitle.vue";
+import AppTitle from './components/AppTitle.vue';
 
 export default {
   components:{
@@ -7,29 +7,22 @@ export default {
   },
   data(){
     return{
-      count:0
+      message: 'ciao'
     }
-  }
+  },
 }
 </script>
 
 <template>
   
-  <main>
-    <AppTitle/>
-  </main>
+    <h1>
 
+      {{ message }}
+
+    </h1>
+    <AppTitle/>
 </template>
 
 <style scoped>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
 
 </style>
