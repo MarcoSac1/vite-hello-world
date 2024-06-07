@@ -1,8 +1,23 @@
-<script setup>
+<script>
+import AppTitle from "./components/Apptitle.vue";
 
+export default {
+  components:{
+    AppTitle,
+  },
+  data(){
+    return{
+      count:0
+    }
+  }
+}
 </script>
 
 <template>
+  
+  <main>
+    <AppTitle/>
+  </main>
 
 </template>
 
