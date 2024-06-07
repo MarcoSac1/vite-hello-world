@@ -7,7 +7,7 @@ export default {
   },
   data(){
     return{
-      message: 'ciao'
+      
     }
   },
 }
@@ -15,12 +15,10 @@ export default {
 
 <template>
   
-    <h1>
-
-      {{ message }}
-
-    </h1>
+  <main>
     <AppTitle/>
+  </main>
+
 </template>
 
 <style scoped>
